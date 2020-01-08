@@ -1,0 +1,170 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.Common", "src\AllWayNet.Common\AllWayNet.Common.csproj", "{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.Common.Test", "test\AllWayNet.Common.Test\AllWayNet.Common.Test.csproj", "{5B74E162-A471-4429-9C5C-60D3B20B0B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.Logger", "src\AllWayNet.Logger\AllWayNet.Logger.csproj", "{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.Logger.Test", "test\AllWayNet.Logger.Test\AllWayNet.Logger.Test.csproj", "{F1FF822B-8B8C-4020-A5FF-56667340A2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.Applications", "src\AllWayNet.Applications\AllWayNet.Applications.csproj", "{0967A58E-3F68-4DF4-963F-E48D156C0100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.EventLog", "src\AllWayNet.EventLog\AllWayNet.EventLog.csproj", "{782718A1-FAE1-4D0A-9604-3738BFE248A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.EventLog.Test", "test\AllWayNet.EventLog.Test\AllWayNet.EventLog.Test.csproj", "{97E4D64A-E763-4F48-AA4B-E55A7FE74123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.LogFile", "src\AllWayNet.LogFile\AllWayNet.LogFile.csproj", "{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.LogFile.Test", "test\AllWayNet.LogFile.Test\AllWayNet.LogFile.Test.csproj", "{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceLoggerService", "samples\ResourceLoggerService\ResourceLoggerService.csproj", "{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllWayNet.Applications.Test", "test\AllWayNet.Applications.Test\AllWayNet.Applications.Test.csproj", "{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60E83922-FAC9-4C7D-8275-C13E8498C69D}"
+	ProjectSection(SolutionItems) = preProject
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = test\\AllWayNet.Common.Test\\AllWayNet.Common.Test.csproj
+		SccProjectName1 = test/AllWayNet.Common.Test
+		SccLocalPath1 = test\\AllWayNet.Common.Test
+		SccProjectUniqueName2 = src\\AllWayNet.Common\\AllWayNet.Common.csproj
+		SccProjectName2 = src/AllWayNet.Common
+		SccLocalPath2 = src\\AllWayNet.Common
+		SccProjectUniqueName3 = src\\AllWayNet.Logger\\AllWayNet.Logger.csproj
+		SccProjectName3 = src/AllWayNet.Logger
+		SccLocalPath3 = src\\AllWayNet.Logger
+		SccProjectUniqueName4 = test\\AllWayNet.Logger.Test\\AllWayNet.Logger.Test.csproj
+		SccProjectName4 = test/AllWayNet.Logger.Test
+		SccLocalPath4 = test\\AllWayNet.Logger.Test
+		SccProjectUniqueName5 = src\\AllWayNet.Applications\\AllWayNet.Applications.csproj
+		SccProjectName5 = src/AllWayNet.Applications
+		SccLocalPath5 = src\\AllWayNet.Applications
+		SccProjectUniqueName6 = src\\AllWayNet.EventLog\\AllWayNet.EventLog.csproj
+		SccProjectName6 = src/AllWayNet.EventLog
+		SccLocalPath6 = src\\AllWayNet.EventLog
+		SccProjectUniqueName7 = test\\AllWayNet.EventLog.Test\\AllWayNet.EventLog.Test.csproj
+		SccProjectName7 = test/AllWayNet.EventLog.Test
+		SccLocalPath7 = test\\AllWayNet.EventLog.Test
+		SccProjectUniqueName8 = src\\AllWayNet.LogFile\\AllWayNet.LogFile.csproj
+		SccProjectName8 = src/AllWayNet.LogFile
+		SccLocalPath8 = src\\AllWayNet.LogFile
+		SccProjectUniqueName9 = test\\AllWayNet.LogFile.Test\\AllWayNet.LogFile.Test.csproj
+		SccProjectName9 = test/AllWayNet.LogFile.Test
+		SccLocalPath9 = test\\AllWayNet.LogFile.Test
+		SccProjectUniqueName10 = samples\\ResourceLoggerService\\ResourceLoggerService.csproj
+		SccProjectName10 = samples/ResourceLoggerService
+		SccLocalPath10 = samples\\ResourceLoggerService
+		SccProjectUniqueName11 = test\\AllWayNet.Applications.Test\\AllWayNet.Applications.Test.csproj
+		SccProjectName11 = test/AllWayNet.Applications.Test
+		SccLocalPath11 = test\\AllWayNet.Applications.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug 4.0|Any CPU = Debug 4.0|Any CPU
+		Debug 4.5|Any CPU = Debug 4.5|Any CPU
+		Release 4.0|Any CPU = Release 4.0|Any CPU
+		Release 4.5|Any CPU = Release 4.5|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{1783D68B-0580-4CBA-892F-6AC7BF9F67C1}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{5B74E162-A471-4429-9C5C-60D3B20B0B58}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{C3E0FF9C-1B2A-4211-B7F3-8F3F2A25AC85}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{F1FF822B-8B8C-4020-A5FF-56667340A2A9}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{0967A58E-3F68-4DF4-963F-E48D156C0100}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{782718A1-FAE1-4D0A-9604-3738BFE248A4}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{97E4D64A-E763-4F48-AA4B-E55A7FE74123}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{45FBF09E-AAB2-4FA0-BF16-A3DEC282354F}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{E7676EFA-C89F-45FA-8E38-DE88FB68FB50}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{5C08EC87-F7BD-4C1A-AE4A-F95CECBA0FD4}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Debug 4.0|Any CPU.ActiveCfg = Debug 4.0|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Debug 4.0|Any CPU.Build.0 = Debug 4.0|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Debug 4.5|Any CPU.ActiveCfg = Debug 4.5|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Debug 4.5|Any CPU.Build.0 = Debug 4.5|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Release 4.0|Any CPU.ActiveCfg = Release 4.0|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Release 4.0|Any CPU.Build.0 = Release 4.0|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Release 4.5|Any CPU.ActiveCfg = Release 4.5|Any CPU
+		{C80EBF1F-C2D5-4FAB-8579-0DC14BCE3BF0}.Release 4.5|Any CPU.Build.0 = Release 4.5|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
